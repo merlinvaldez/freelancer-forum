@@ -1,0 +1,42 @@
+.freelancerId {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: linear-gradient(90deg, #4f8cff 0%, #38e6c5 100%);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  box-shadow: 0 2px 8px rgba(79, 140, 255, 0.15);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.freelancerId:hover {
+  background: linear-gradient(90deg, #38e6c5 0%, #4f8cff 100%);
+  box-shadow: 0 4px 16px rgba(56, 230, 197, 0.18);
+  cursor: pointer;
+}
+
+.freelancerId {
+  margin-left: 0.75em;
+}
+
+.freelancerId {
+  margin-bottom: 0.5em;
+}
+
+.freelancerIds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em 0.75em;
+  align-items: flex-start;
+}
+
+.freelancerId {
+  margin-bottom: 0;
+}
+
+h1,
+#displayAverage {
+  text-align: center;
+}
